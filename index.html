@@ -3,9 +3,29 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
     <title>Lista de tarefas</title>
 </head>
 <body>
-    
+    <div class="container">
+        <header>
+            <img src="./imagens/2721299.png" alt="imgagem de uma lista de tarefas">
+            <H1>Lista de Tarefas</H1>
+        </header>
+        <form id="form-tarefa">
+            <label for="task">Nova Tarefa</label>
+            <input type="text" id="tarefa" name="tarefa" required placeholder="Digite aqui o nome da tarefa">
+            <button type="submit">Adicionar</button>
+        </form>
+        <ul id="lista-tarefa">
+
+        </ul>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>
